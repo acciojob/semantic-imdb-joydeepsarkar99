@@ -47,7 +47,7 @@
 	color:white;
 	text-align:justify;
 }
-.movie-details{
+#actor,#quote{
 	margin-top:10px;
 	background-color:black;
 	padding-inline:20px;
