@@ -1,2 +1,77 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+}
+.links{
+	background-color:black;
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	gap:10px;
+	padding:15px;
+}
+.links>a{
+	text-decoration:none;
+	color:yellow;
+	font-size:22px;
+}
+#nav-actor{
+	margin-inline:10px;
+}
+#nav-quote{
+	margin-inline:10px;
+}
+#nav-actor:hover{
+	text-decoration:underline;
+}
+#nav-quote:hover{
+	text-decoration:underline;
+}
+.movie-name{
+	margin-top:10px;
+	background-color:black;
+	padding:10px;
+}
+.movie-name>h1{
+	color:yellow;
+	text-align:center;
+}
+.movie-summary{
+	background-color:black;
+	padding-inline:20px;
+	padding-bottom:10px;
+}
+.movie-summary>p{
+	color:white;
+	text-align:justify;
+}
+.movie-details{
+	margin-top:10px;
+	background-color:black;
+	padding-inline:20px;
+}
+#actor>h2, #quote>h2{
+	color:yellow;
+	text-align:center;
+}
+#actor>p{
+	color:white;
+	text-align:justify;
+	padding:10px 0px;
+}
+#quote>p{
+	color:silver;
+	text-align:justify;
+	font-style:italic;
+	padding:10px 0px;
+}
+.movie-aside-info,footer{
+	margin-top:10px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	padding:15px;
+}
+
